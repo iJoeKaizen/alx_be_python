@@ -1,9 +1,9 @@
 #Financial details
-monthly_income = input("Enter your monthly income:")
+monthly_incomes = input("Enter your monthly income:")
 monthly_expenses = input("Enter your total monthly expenses:")
 
 #calculate monthly savings
-monthly_savings = int(monthly_income) - int(monthly_expenses)
+monthly_savings = int(monthly_incomes) - int(monthly_expenses)
 
 rate = 0.05  # Assume a fixed interest rate of 5%
 # Calculate the projected monthly_ after one year
